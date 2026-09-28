@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Generated audio
+*.wav
+*.mp3
+*.flac
+audio/
+output/
+outputs/
+
+# Local datasets
+full_bible.json
+*.jsonl
+
+# Generated manifests/logs
+manifest*.json
+*.log
+
+# Model/cache files
+.cache/
+models/
+tts_models/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
